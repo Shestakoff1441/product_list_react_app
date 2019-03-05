@@ -1,0 +1,10 @@
+.Search-Element{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    height: 20px;
+}
+p{
+    margin: 0;
+}

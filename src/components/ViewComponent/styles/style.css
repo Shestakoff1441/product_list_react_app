@@ -1,0 +1,61 @@
+
+.App-Block{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 15px;;
+    border: 2px solid #e8e8e8;
+    border-radius: 8px;
+    width: 600px;
+    height: auto;
+}
+.Phone-Elem__Block{
+    margin: 15px 0 15px 0;
+}
+.Phone-Elem__Image-Block{
+    position: relative;
+    cursor: pointer;
+}
+
+img{
+    border-radius: 30%;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+.Phone-Elem__Info-Block{
+    position: absolute;
+    display: inline-block;
+}
+.Phone-Elem__Name{
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.Phone-Elem__Hide-Block{
+    display: none;
+}
+.Phone-Elem__Description{
+    font-weight: 400;
+    font-size: 12px;
+    color: #082644;
+}
+.Phone-Elem__isThere{
+    text-align: right;
+}
+
+
+.show-desc{
+    display: block;
+}
+.hide-desc{
+    display: none;
+}
+.in-Stock{
+    font-weight: 500;
+    color: #52af18;
+}
+.out-Stock{
+    font-weight: 500;
+    color:#c91a0e;
+}
